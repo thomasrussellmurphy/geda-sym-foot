@@ -1,0 +1,89 @@
+v 20110115 2
+T 100 100 0 1 0 0 0 0 1
+comment=original drawing source http://www.gedasymbols.org/user/stefan_salewski/symbols/CON_USB_B-1.sym
+P 1600 800 1300 800 1 0 0
+{
+T 1400 850 5 8 1 1 0 0 1
+pinnumber=3
+T 1400 750 5 8 0 1 0 2 1
+pinseq=3
+T 1250 800 9 8 1 1 0 6 1
+pinlabel=+5v
+T 1250 800 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 1600 1100 1300 1100 1 0 0
+{
+T 1400 1150 5 8 1 1 0 0 1
+pinnumber=2
+T 1400 1050 5 8 0 1 0 2 1
+pinseq=2
+T 1250 1100 9 8 1 1 0 6 1
+pinlabel=pwrsw
+T 1250 1100 5 8 0 1 0 8 1
+pintype=io
+}
+P 1600 1400 1300 1400 1 0 0
+{
+T 1400 1450 5 8 1 1 0 0 1
+pinnumber=1
+T 1400 1350 5 8 0 1 0 2 1
+pinseq=1
+T 1250 1400 9 8 1 1 0 6 1
+pinlabel=data
+T 1250 1400 5 8 0 1 0 8 1
+pintype=io
+}
+P 1600 500 1300 500 1 0 0
+{
+T 1400 550 5 8 1 1 0 0 1
+pinnumber=4
+T 1400 450 5 8 0 1 0 2 1
+pinseq=4
+T 1250 500 9 8 1 1 0 6 1
+pinlabel=GND
+T 1250 500 5 8 0 1 0 8 1
+pintype=pwr
+}
+P 400 0 400 300 1 0 0
+{
+T 450 200 5 8 1 1 0 2 1
+pinnumber=5
+T 350 200 5 8 0 1 0 8 1
+pinseq=5
+T 600 350 9 8 1 1 0 3 1
+pinlabel=CASE
+T 400 500 5 8 0 1 0 3 1
+pintype=pas
+}
+B 0 300 1300 1300 3 0 0 0 -1 -1 0 -1 -1 -1 -1 -1
+T 1300 1700 8 10 1 1 0 6 1
+refdes=CONN?
+T 500 1000 9 10 1 0 0 4 2
+ADB
+(mini DIN4)
+T 0 3400 5 10 0 0 0 0 1
+device=ADB_miniDIN4
+T 0 3200 5 10 0 0 0 0 1
+footprint=md2-40st-smt
+T 0 2200 5 10 0 0 0 0 1
+author=Thomas Murphy
+T 0 2400 5 10 0 0 0 0 1
+description=mini DIN4 connector for ADB
+T 0 2600 5 10 0 0 0 0 1
+numslots=0
+T 0 2800 5 10 0 0 0 0 1
+dist-license=GPL
+T 0 3000 5 10 0 0 0 0 1
+use-license=unlimited
+P 800 0 800 300 1 0 0
+{
+T 850 200 5 8 1 1 0 2 1
+pinnumber=6
+T 750 200 5 8 0 1 0 8 1
+pinseq=6
+T 800 350 9 8 0 1 0 3 1
+pinlabel=CASE
+T 800 500 5 8 0 1 0 3 1
+pintype=pas
+}
